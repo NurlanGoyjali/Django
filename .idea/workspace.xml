@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="deneme3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a8Ne57w9CORSk4JGSLCg113Ck6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../denemeprojesi" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="deneme3" type="Python.DjangoServer" factoryName="Django server">
+      <module name="deneme3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="deneme3.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Django\deneme3\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="" />
+      <created>1586113357521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586113357521</updated>
+      <workItem from="1586113370006" duration="10236000" />
+      <workItem from="1586130219468" duration="20788000" />
+      <workItem from="1586159213277" duration="12320000" />
+      <workItem from="1586225576048" duration="25636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Inspections" timestamp="1586113721939">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1586113721939" />
+    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586130283723">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1586130283723" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586155746944">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1586155746944" />
+    <state x="402" y="51" key="#deneme3" timestamp="1586134422312">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="402" y="51" key="#deneme3/0.0.1366.768@0.0.1366.768" timestamp="1586134422312" />
+    <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1586142485012">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586142485012" />
+    <state width="1323" height="39" key="GridCell.Tab.0.bottom" timestamp="1586282342064">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586282342064" />
+    <state width="1323" height="39" key="GridCell.Tab.0.center" timestamp="1586282342063">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586282342063" />
+    <state width="1323" height="39" key="GridCell.Tab.0.left" timestamp="1586282342062">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586282342062" />
+    <state width="1323" height="39" key="GridCell.Tab.0.right" timestamp="1586282342063">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586282342063" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1586246870711">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586246870711" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1586246870711">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586246870711" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1586246870711">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586246870711" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1586246870711">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586246870711" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586129690938">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1586129690938" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1586135163417">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586135163417" />
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586225780104">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586225780104" />
+  </component>
+</project>
