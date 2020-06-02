@@ -1,0 +1,26 @@
+
+  {% include 'header.html' %}
+<body>
+
+
+<table border=1>
+<tr>
+<th>Image</th>
+<th>Product Name</th>
+<th>Category</th>
+<th>Price</th>
+</tr>
+    
+    {% for foo in product %}
+<tr >
+
+
+<td > <a href="/product/{{ foo.id }}" > <img src="{{ foo.image.url }}" style=" width: 150px; height: 150px; " > </a> </td>
+<td style=" width: 100px; height: 100px; "><h4> <a href="/product/{{ foo.id }}" >  {{ foo.title }} </a> </h4></td>
+<td style=" width: 100px; height: 100px; "><h4> <a href="/product/{{ foo.id }}" >  {{ foo.category }} </a> </h4></td>
+<td style=" width: 100px; height: 100px; "><h4> <a href="/product/{{ foo.id }}" >  {{ foo.price }} TL </a> </h4></td>
+</tr>
+    {% endfor %}
+</table>
+</body>
+  {% include 'footer.html' %}

@@ -20,24 +20,26 @@ from django.urls import include, path
 
 from home import views
 
-urlpatterns = [
-    #path('', include('home.urls')),
 
+urlpatterns = [
 
     path('admin/', admin.site.urls),
 
-    path('product/', include('product.urls')),
-    path('', include('home.urls') ),
-
-
     path('home/', views.index , name='index'),
-    path('index.html/', views.index, name='contact-us'),
-    path('about/', views.about),
-    path('contact-us.html/', views.contact, name='contact-us'),
+    path('index/', views.index,name='index'),
+    path('about/', views.about,name='about'),
+    path('contact-us/', views.contact, name='contact-us'),
+    path('category/<int:id>/<slug:slug>/', views.category_product, name='category_product'),
+    path('product/<int:id>/', views.product_detail, name='category_product'),
+    path('search/', views.search, name='search'),
+    path('login/', views.log_in , name='login'),
+    path('logout/', views.log_out, name='logout'),
+    path('singup/', views.sing_up, name='singup'),
 
     path('ckeditor/', include('ckeditor_uploader.urls')),
-
-
+    path('', include('home.urls')),
+    path('product/', include('product.urls')),
+    path('user/', include('user.urls')),
 
 ]
 if settings.DEBUG:
