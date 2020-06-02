@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/singup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/1_BULsiQI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/1_ObRxb0P.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/indir.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/indir_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/indir_9HTyq5G.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/indir_LlLRBpw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/indir_m361V3g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/java1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/java1_OSbyxrQ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/java2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mavid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mavid_BePrUjp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/mavid_NeT88VW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/20190403_151747.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +175,7 @@
       <workItem from="1590335731608" duration="6845000" />
       <workItem from="1590416358305" duration="16251000" />
       <workItem from="1591132501641" duration="2001000" />
-      <workItem from="1591134767223" duration="241000" />
+      <workItem from="1591134767223" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <created>1591132824767</created>
