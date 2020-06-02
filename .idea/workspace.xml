@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/singup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1_BULsiQI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1_ObRxb0P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/indir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/indir_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/indir_9HTyq5G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/indir_LlLRBpw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/indir_m361V3g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/java1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/java1_OSbyxrQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/java2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mavid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mavid_BePrUjp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/mavid_NeT88VW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/users/20190403_151747.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/users/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +200,8 @@
       <workItem from="1590266624379" duration="29000" />
       <workItem from="1590335731608" duration="6845000" />
       <workItem from="1590416358305" duration="16251000" />
-      <workItem from="1591132501641" duration="464000" />
+      <workItem from="1591132501641" duration="2001000" />
+      <workItem from="1591134767223" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <created>1591132824767</created>
@@ -185,15 +210,50 @@
       <option name="project" value="LOCAL" />
       <updated>1591132824767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":)">
+      <created>1591133007769</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591133007769</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Django/deneme3/deneme3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -203,10 +263,20 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value=":)" />
     <option name="LAST_COMMIT_MESSAGE" value=":)" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Inspections" timestamp="1589308331132">
@@ -229,30 +299,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="402" y="51" key="#deneme3/0.0.1366.768@0.0.1366.768" timestamp="1586134422312" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1591132817877">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1591133005994">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591132817877" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591133005994" />
     <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1586142485012">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586142485012" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1590454795552">
+    <state width="661" height="213" key="GridCell.Tab.0.bottom" timestamp="1591134521984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590454795552" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1590454795552">
+    <state width="661" height="213" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
+    <state width="661" height="213" key="GridCell.Tab.0.center" timestamp="1591134521984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590454795552" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1590454795551">
+    <state width="661" height="213" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
+    <state width="661" height="213" key="GridCell.Tab.0.left" timestamp="1591134521984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590454795551" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1590454795552">
+    <state width="661" height="213" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
+    <state width="661" height="213" key="GridCell.Tab.0.right" timestamp="1591134521984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590454795552" />
+    <state width="661" height="213" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1590454795553">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -289,17 +359,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1590183245019" />
-    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1591132518285">
+    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1591134777419">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591132518285" />
-    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591132983013">
+    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591134777419" />
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591134406788">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1591132983013" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589449244487">
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1591134406788" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591134979227">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589449244487" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591134979227" />
   </component>
 </project>

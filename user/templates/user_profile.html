@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'header.html' %}
+{% include 'css_files.html' %}
+
+
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <ul class="" style="margin: 5%; margin-left: 25%">
+
+                            <li style=" margin: 5% 5% 5% 10%;" ><img src="{{profile.image.url}}" alt="" style=" width: 150px; height: 150px;" /> </li>
+							<li style="margin: 5%"> <span style="margin-right: 7%;" > Name </span> <input type="" name="" placeholder="{{profile.user.first_name}}" /> </li>
+							<li style="margin: 5%"> <span style="margin-right: 5.5%;" > Surname </span> <input type="" name="" placeholder="{{profile.user.last_name}}" /> </li>
+                            <li style="margin: 5%"> <span style="margin-right: 6%;" > Country </span> <input type="" name="" placeholder="{{profile.country}}" /> </li>
+                            <li style="margin: 5%"> <span style="margin-right: 9.5%;" > City </span> <input type="" name="" placeholder="{{profile.city}}" /> </li>
+                            <li style="margin: 5%"> <span style="margin-right: 1%;" > Phone Number </span> <input type="" name="" placeholder="{{profile.phone}}" /> </li>
+                            </ul>
+							<button  style="margin-left: 35%" type="submit" class="btn btn-default">Save</button>
+						</form>
+
+
+
+
+{% include 'footer.html' %}
