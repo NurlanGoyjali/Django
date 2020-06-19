@@ -1,0 +1,15 @@
+{% extends "homebase.html" %}
+
+{% block title %}   {{ "sifarişiniz başarıyla tamamlandı" }} {% endblock %}
+
+
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+{%  block body %}
+
+<h1> Sifariş kodunuz Aşağıdakı Gibidir </h1>
+<h3> {{ordercode}} </h3> <br> <a href="/index"> Ana sayfa </a>
+
+
+
+{% endblock %}

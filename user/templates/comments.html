@@ -1,0 +1,94 @@
+{% extends 'homebase.html' %}
+
+{%  block title %} {{ "Yorumlarım" }} {% endblock %}
+{%  block  keywords %} {{ '' }} {% endblock %}
+{%  block  descriptions %}{{ '' }} {% endblock %}
+
+
+
+
+{%  block sidebar %}  {% endblock %}
+{%  block  slinder %}  {% endblock %}
+
+       {% block body %}
+
+
+	<section id="cart_items">
+		<div class="container">
+
+         {% if messages %}
+                            {% for message in messages %}
+                                <div class="alert alert-{{message.tags}}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+
+
+			<div class="table-responsive cart_info">
+
+    				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+                            <td class="">Id</td>
+							<td class="">Item</td>
+							<td class="">Subject</td>
+                            <td class="">Comment</td>
+							<td class="">Status</td>
+                            <td class="">Date</td>
+                             <td class="">Delete</td>
+                            <td></td>
+						</tr>
+					</thead>
+					<tbody>
+                    {% for foo in comment %}
+						<tr>
+
+                            <td class="cart_description">
+								<h4><a href="">{{ foo.id }}</a></h4>
+								<p></p>
+							</td>
+
+							<td class="cart_product">
+								<h4> {{ foo.product.title }}  </h4>
+							</td>
+
+
+							<td class="cart_price">
+								<p>{{ foo.subject }}</p>
+							</td>
+							<td class="cart_quantity">
+								<p>{{ foo.comment }}</p>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">{{foo.status}}</p>
+							</td>
+
+                            <td class="cart_total">
+								<p class="cart_price">{{foo.create_at}}</p>
+							</td>
+
+                        <td class="cart_delete">
+								<a class="cart_quantity_delete" href="/user/deletecomment/{{ foo.id }}"> <i class="fa fa-info" aria-hidden="true" style="padding: 10px;"></i></a>
+							</td>
+
+						</tr>
+
+
+					</tbody>
+
+
+
+
+{% endfor %}
+                    </table>
+            </div>
+		</div>
+	</section>
+
+
+
+{% endblock %}
+
+
+

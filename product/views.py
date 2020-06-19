@@ -29,7 +29,7 @@ def add(request, id):
             data = Comment()
             data.user_id = current_user.id
             data.product_id = id
-            data.subject = form.cleaned_data['subject']
+            data.subject = request.user.username
             data.comment = form.cleaned_data['comment']
             #data.rate = form.cleaned_data['rate']
             data.ip = request.META.get('REMOTE_ADDR')

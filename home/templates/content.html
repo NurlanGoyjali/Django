@@ -8,28 +8,28 @@
 						<h2 class="title text-center">Ürünler </h2>
                         {% for foo in feat_data %}
 
-						<div class="col-sm-4">
+						<div class="col-sm-4" >
 							<div class="product-image-wrapper">
 								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="{{ foo.image.url }}" alt="" style="height: 200px" />
+									<div class="productinfo text-center" style="background:#F5FFFA; ">
+										<img src="{{ foo.image.url }}" alt="" style="height: 250px; width: 160px; " />
 										<h2>{{ foo.price }} TL </h2>
 										<p>{{ foo.title }}</p>
-										<a href="/product/{{ foo.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										<a href="/product/{{ foo.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 									</div>
 									<div class="product-overlay">
 										<div class="overlay-content">
 											<h2>{{ foo.price }} TL</h2>
 											<p>{{ foo.title }}</p>
-											<a href="/product/{{ foo.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											<a href="/product/{{ foo.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 										</div>
 									</div>
 									<img src="{%static 'images/home/sale.png'%}" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+										<li><a href="/order/addtocart/{{ foo.id }}"><i class="fa fa-plus-square"></i>Al</a></li>
+
 									</ul>
 								</div>
 							</div>
@@ -76,7 +76,7 @@
 												<img src="{{rs.image.url}}" alt="" />
 												<h2>$56</h2>
 												<p>{{ rs.title }}</p>
-												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 											</div>
 
 										</div>
@@ -101,7 +101,7 @@
 												<img src="{{rs.image.url}}" alt="" />
 												<h2>$56</h2>
 												<p>{{ rs.title }}</p>
-												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 											</div>
 
 										</div>
@@ -126,7 +126,7 @@
 												<img src="{{rs.image.url}}" alt="" />
 												<h2>$56</h2>
 												<p>{{ rs.title }}</p>
-												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 											</div>
 
 										</div>
@@ -150,7 +150,7 @@
 												<img src="{{rs.image.url}}" alt="" />
 												<h2>$56</h2>
 												<p>{{ rs.title }}</p>
-												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 											</div>
 
 										</div>
@@ -174,7 +174,7 @@
 												<img src="{{rs.image.url }}" alt="" />
 												<h2>$56</h2>
 												<p>{{ rs.category }}</p>
-												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="/product/{{ rs.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 											</div>
 
 										</div>
@@ -207,10 +207,10 @@
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-													<img src="{{ pfu.image.url }}" alt="" style="height: 200px" />
+													<img src="{{ pfu.image.url }}" alt="" style="height: 250px; width: 170px; " />
 													<h2>{{ pfu.price }} TL</h2>
 													<p>{{ pfu.title }}</p>
-													<a href="/product/{{ pfu.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+													<a href="/product/{{ pfu.id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Git</a>
 												</div>
 
 											</div>

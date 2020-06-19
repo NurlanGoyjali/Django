@@ -24,16 +24,17 @@ SECRET_KEY = '%fj&-a)ln&cmc+q%eobrqj2mrycul*8)!bis(z%i(h4v5$dtkd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'product.apps.ProductConfig',
     'user.apps.UserConfig',
+    'order.apps.OrderConfig',
+    'content.apps.ContentConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'mptt',
+    'django_fields',
 
 
 ]
@@ -86,6 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
     }
 }
 
@@ -131,8 +134,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_URL='/media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'uploads')
+
 
 SITE_ID = 1
 
@@ -140,6 +144,9 @@ CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery
 
 CKEDITOR_UPLOAD_PATH = 'uploads/images/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
+
+
+
 
 CKEDITOR_CONFIGS = {
     'default': {

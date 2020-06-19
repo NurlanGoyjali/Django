@@ -7,14 +7,17 @@ from django.contrib.auth import logout, authenticate, login
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 
+from content.models import Content, Menu, CImage
 from home.Forms import SearchForm, SingUp
-from home.models import UserProfile
+from home.models import UserProfile, FAQ, ContactFormu, ContactForm, Setting
+from order.models import ShopCart
 from product.models import Product, Category, Images, Comment
 
 
 # Create your views here.
 
 def index(request):
+    current_user = request.user
     prod_data = Product.objects.all()[:3]
     cate_data = Category.objects.all()[:6]
     feat_data = Product.objects.all().order_by('?')[:6]
@@ -22,16 +25,22 @@ def index(request):
     dayproduct = Product.objects.all()[:3]
     lastproduct = Product.objects.all().order_by('?')[:3]
     productforu = Product.objects.all().order_by('?')[:3]
-
-    sliderdata=Product.objects.all().order_by('?')[:3]
+    permision = 1
+    setting = Setting.objects.get(pk=1)
+    request.session['cart_items'] = ShopCart.objects.filter(user__id=current_user.id).count()
+    sliderdata = Product.objects.all().order_by('?')[:3]
+    content = Content.objects.all().order_by('create_at')[:5]
     context = {'prod_data': prod_data,
-               'cate_data':cate_data,
-               'feat_data':feat_data,
+               'cate_data': cate_data,
+               'content': content,
+               'setting': setting,
+               'feat_data': feat_data,
                'category': category,
-               'sliderdata':sliderdata,
-               'dayproduct':dayproduct,
-               'lastproduct':lastproduct,
-               'productforu':productforu
+               'permision': permision,
+               'sliderdata': sliderdata,
+               'dayproduct': dayproduct,
+               'lastproduct': lastproduct,
+               'productforu': productforu
                }
 
     return render(request, 'index.html', context)
@@ -39,25 +48,40 @@ def index(request):
 
 def about(request):
     category = Category.objects.all()
-    setting = Product.objects.get(pk=1)
+    #setting = Product.objects.get(pk=1)
     context = {'category': category}
 
-    return render(request ,'about.html',context)
+    return render(request, 'about.html', context)
 
 
-def contact(req):
+def contact(request):
+    if request.method == 'POST':
+        form = ContactFormu(request.POST)
+        if form.is_valid():
+            data = ContactForm()
+            data.name = form.cleaned_data['name']
+            data.email = form.cleaned_data['email']
+            data.subject = form.cleaned_data['subject']
+            data.message = form.cleaned_data['message']
+            data.save()
+            messages.success(request, " Mesajınız alınmıştır ")
+            return HttpResponseRedirect('/contact-us')
 
     category = Category.objects.all()
-    context = {'category': category}
-    return render(req,'contact-us.html',context)
+    form = ContactFormu()
+    context = {
+        'category': category,
+        'form': form,
+            }
+    return render(request, 'contact-us.html', context)
 
 
 def category_product(request, id, slug):
-    feat_data=Product.objects.filter(category_id=id)
+    feat_data = Product.objects.filter(category_id=id)
     category = Category.objects.all()
     productforu = Product.objects.all().order_by('?')[:3]
     context = {
-        'slug':slug,
+        'slug': slug,
         'feat_data': feat_data,
         'category': category,
         'productforu': productforu,
@@ -82,7 +106,6 @@ def product_detail(request, id):
 
 
 def search(request):
-
     if request.method == 'POST':
         form = SearchForm(request.POST)
         if form.is_valid():
@@ -93,7 +116,7 @@ def search(request):
                 'category': category,
                 'product': product,
             }
-            return render(request,'product_search.html',context)
+            return render(request, 'product_search.html', context)
     return HttpResponseRedirect('/')
 
 
@@ -121,9 +144,6 @@ def log_out(request):
     return HttpResponseRedirect('/')
 
 
-
-
-
 def sing_up(request):
     if request.method == 'POST':
         form = SingUp(request.POST)
@@ -138,7 +158,7 @@ def sing_up(request):
             data.user_id = current_user.id
             data.image = 'images/users/user.png'
             data.save()
-            messages.success(request, 'hoş geldin')
+
             return HttpResponseRedirect('/')
 
     form = SingUp()
@@ -150,3 +170,69 @@ def sing_up(request):
     return render(request, 'singup.html', context)
 
 
+def menu(request):
+    content = Content.objects.get(menu_id=id)
+    if content:
+        link = '/content/' + str(content.id) + '/menu'
+        return HttpResponseRedirect(link)
+    else:
+        messages.warning(request, 'Hata oluştu')
+        link = '/'
+        return HttpResponseRedirect(link)
+
+
+def contentdetail(request, id):
+    category = Category.objects.all()
+    menu = Menu.objects.all()
+    content = Content.objects.get(pk=id)
+    images = CImage.objects.filter(content_id=id)
+
+    context = {
+        'content': content,
+        # 'permision': permision,
+        'category': category,
+        'menu': menu,
+        'images': images,
+        # 'comments': comments,
+    }
+    return render(request, 'content_detail.html', context)
+
+
+def content(request):
+    category = Category.objects.all()
+    content = Content.objects.all()
+    permision = 0;
+    context = {
+
+        'category': category,
+        'permision': permision,
+        'content': content,
+        # 'comments': comments,
+    }
+    return render(request, 'content_blog.html', context)
+
+
+def faq(request):
+    category = Category.objects.all()
+    permision = 0;
+    faq = FAQ.objects.all()
+    context = {
+        'faq': faq,
+        'category': category,
+        'permision': permision,
+        # 'comments': comments,
+    }
+    return render(request, 'faq.html', context)
+
+
+def error(request):
+    category = Category.objects.all()
+    permision = 0;
+
+    context = {
+
+        'category': category,
+        'permision': permision,
+        # 'comments': comments,
+    }
+    return render(request, '404.html', context)

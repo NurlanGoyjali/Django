@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 {% include 'css_files.html' %}
 
-    <header>
+    <header >
 
 
     <div class="header-middle"><!--header-middle-->
@@ -45,14 +45,14 @@
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
                                 {% if user.id is not None %}
-								<li><a href=""><i class="fa fa-user"></i> {{user.username}}</a></li>
-								<li><a href="/user"><i class="fa fa-star"></i> User PRofile</a></li>
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-                                <li><a href="/logout"><i class="fa fa-lock"></i> Log Out</a>   </li>
+								<li><a href="/user"><i class="fa fa-user"></i> {{user.username}}</a></li>
+								<li><a href="/user/comments"><i class="fa fa-star"></i>Yorumlarım</a></li>
+								<li><a href="/user/userorders"><i class="fa fa-crosshairs"></i> Sifarişlerim</a></li>
+								<li><a href="/shopcart"><i class="fa fa-shopping-cart"></i> Sepet  {{ request.session.cart_items }} </a></li>
+                                <li><a href="/logout"><i class="fa fa-lock"></i> Çıkış </a>   </li>
                             {% else %}
-								<li><a href="/login"><i class="fa fa-lock"></i> Login</a></li>
-                                <li><a href="/singup"><i class="fa fa-sign-in" aria-hidden="true"></i> Sing In</a></li>
+								<li><a href="/login"><i class="fa fa-lock"></i> Giriş</a></li>
+                                <li><a href="/singup"><i class="fa fa-sign-in" aria-hidden="true"></i>Kayıt</a></li>
                             {% endif %}
 							</ul>
 						</div>
@@ -83,7 +83,7 @@
                             <ul class="nav navbar-nav collapse navbar-collapse">
 
 
-                                <li><a href="/index">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
 
@@ -102,15 +102,13 @@
 
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
+                                <li class="dropdown"><a href="/content">Duyurular</a>
 
-                                        <li><a href="blog.html">Blog List</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
                                 </li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="contact-us">Contact</a></li>
+                                <li><a href="/faq">SSS</a></li>
+                                <li><a href="/contact-us">İletişim</a></li>
+                                <li><a href="/about">Hakkımızda</a></li>
+                                <li><a href="/404h">404</a></li>
 
                             </ul>
                         </div>
@@ -126,7 +124,7 @@
                             <form action="/search/" method="post">
                                 {% csrf_token %}
 
-                            <input id="query " name="query" type="text" placeholder="Search"/>
+                            <input id="query " name="query" type="text" placeholder="Arama yap"/>
 
 
 

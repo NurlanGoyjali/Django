@@ -1,0 +1,42 @@
+{% extends "homebase.html" %}
+
+{% block title %}   {{ content.title }} {% endblock %}
+
+
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+{%  block body %}
+	<section>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-9 padding-right">
+					<div class="product-details"><!--product-details-->
+						<div class="col-sm-5">
+							<div class="view-product">
+								<img src="{{ content.image.url }}" alt="" style="height: 300px"/>
+								<h3>ZOOM</h3>
+							</div>
+
+
+						</div>
+						<div class="col-sm-7">
+							<div class="product-information"><!--/product-information-->
+								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
+                                    <h1> {{ content.title }}</h1>
+                                         {{ content.detail | safe }}
+							</div><!--/product-information-->
+						</div>
+					</div><!--/product-details-->
+
+
+
+					</div><!--/category-tab-->
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+       {% endblock %}

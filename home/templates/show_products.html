@@ -1,10 +1,16 @@
+{% extends "homebase.html" %}
 
-    {% load static %}
-    {% include 'css_files.html' %}
-{% include 'header.html' %}
 
-    {% include 'sidebar.html'    %}
 
-{% include 'content.html'    %}
+{%  block title %} {{ slug}}  {% endblock %}
+{%  block  keywords %} {{ '' }} {% endblock %}
+{%  block  descriptions %}{{ '' }} {% endblock %}
 
-{% include 'footer.html'     %}
+
+    {% block slider %} {% endblock %}
+
+{%  block body %}
+
+{% block content %} {% include 'content.html'    %} {% endblock %}
+
+{% endblock    %}

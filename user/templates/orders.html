@@ -1,0 +1,88 @@
+{% extends 'homebase.html' %}
+
+{%  block title %} {{ "Sifarişlerim" }} {% endblock %}
+{%  block  keywords %} {{ '' }} {% endblock %}
+{%  block  descriptions %}{{ '' }} {% endblock %}
+
+
+
+
+{%  block sidebar %}  {% endblock %}
+{%  block  slinder %}  {% endblock %}
+
+       {% block body %}
+
+
+	<section id="cart_items">
+		<div class="container">
+			<div class="table-responsive cart_info">
+
+    				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+                            <td class="">Id</td>
+							<td class="">Item</td>
+							<td class="">First Name</td>
+                            <td class="">Last Name</td>
+							<td class="">Status</td>
+							<td class="">Total</td>
+                            <td class="">Date</td>
+                             <td class="">Detail</td>
+                            <td></td>
+						</tr>
+					</thead>
+					<tbody>
+                    {% for foo in orderp %}
+						<tr>
+
+                            <td class="cart_description">
+								<h4><a href="">{{ foo.order.id }}</a></h4>
+								<p></p>
+							</td>
+
+							<td class="cart_product">
+								<a href=""><img src="{{ foo.product.image.url   }}"  style="width: 100px; height: 150px;" alt=""></a>
+							</td>
+
+
+							<td class="cart_price">
+								<p>{{ foo.order.first_name }}</p>
+							</td>
+							<td class="cart_quantity">
+								<p>{{ foo.order.last_name }}</p>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">{{foo.order.status}}</p>
+							</td>
+
+                            <td class="cart_total">
+								<p class="cart_price">{{foo.order.total}}</p>
+							</td>
+                            <td class="cart_total">
+								<p class="cart_price">{{foo.order.create_at}}</p>
+							</td>
+
+                        <td class="cart_delete">
+								<a class="cart_quantity_delete" href="/user/orderdetail/{{ foo.order.id }}"> <i class="fa fa-info" aria-hidden="true" style="padding: 10px;"></i></a>
+							</td>
+
+						</tr>
+
+
+					</tbody>
+
+
+
+
+{% endfor %}
+                    </table>
+            </div>
+		</div>
+	</section>
+
+
+
+{% endblock %}
+
+
+

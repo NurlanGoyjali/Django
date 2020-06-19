@@ -1,0 +1,132 @@
+{% extends "homebase.html" %}
+
+{% block title %}   {{ 'Sıkca Sorulan Sorular' }} {% endblock %}
+
+    {% block head %}
+
+      <style>
+
+
+.accordion{
+  max-width: 60%;
+  padding: 20px;
+   margin-left: 10%;
+}
+
+.accordion-item{
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.item-header{
+  padding: 14px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon{
+  width: 28px;
+  height: 28px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.text{
+  color: #888;
+  padding: 0 6px;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-item.active .text{
+  max-height: 600px;
+  transition: .4s linear;
+}
+
+
+
+
+      </style>
+
+
+
+
+     {% endblock %}
+
+
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+{%  block body %}
+
+
+
+
+
+
+
+
+  </head>
+
+
+
+          {% for foo in faq %}
+
+
+
+    <div class="accordion">
+
+
+      <div class="accordion-item">
+
+        <div class="item-header">
+          <h1 class="title">{{ foo.question }}</h1>
+          <div class="icon">+</div>
+        </div>
+        <p class="text">
+         {{ foo.answer }}
+        </p>
+      </div>
+
+
+
+    </div>
+
+      <script type="text/javascript">
+      $(".item-header").click(function(){
+        $(".accordion-item").removeClass("active");
+        $(this).parent().addClass("active");
+        $(".icon").text("+");
+        $(this).children(".icon").text("-");
+      });
+    </script>
+
+   {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

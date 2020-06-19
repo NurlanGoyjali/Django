@@ -1,0 +1,49 @@
+{% extends 'homebase.html' %}
+
+{%  block title %} {{ "Sifariş Detayı" }} {% endblock %}
+{%  block  keywords %} {{ '' }} {% endblock %}
+{%  block  descriptions %}{{ '' }} {% endblock %}
+
+
+
+
+{%  block sidebar %}  {% endblock %}
+{%  block  slinder %}  {% endblock %}
+
+       {% block body %}
+
+
+        <table class="table table-condensed" style="margin-left: 10%;" >
+                                <thead>
+                                <tr>
+                                    <th>Name</th>   <td>{{ order.first_name }}</td>
+                                <tr>
+                                <tr>
+                                    <th>Surname</th>   <td>{{ order.last_name }}</td>
+                                <tr>
+                                <tr>
+                                    <th>Address</th>   <td>{{ order.address }}</td>
+                                <tr>
+                                <tr>
+                                    <th>City</th>   <td>{{ order.city }}</td>
+                                <tr>
+                                <tr>
+                                    <th>Phone</th>   <td>{{ order.phone }}</td>
+                                <tr>
+                                <tr>
+                                    <th>Date</th>   <td>{{ order.create_at }}</td>
+                                <tr>
+                                <tr>
+                                    <th>Note</th>   <td>    {{ order.note }}      </td>
+                                <tr>
+                                <tr>
+                                    <th>Status</th>   <td>{{ order.status }} </td>
+                                <tr>
+
+                                </thead>
+
+                            </table>
+
+{% endblock %}
+
+

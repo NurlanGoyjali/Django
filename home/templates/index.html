@@ -1,9 +1,12 @@
 {% extends "homebase.html" %}
 
-{%  block title %} {{ 'selamlar' }}{% endblock %}
-{%  block  keywords %} anahtar kelimeler {% endblock %}
-{%  block  descriptions %} açıklamalar  {% endblock %}
+{%  block title %}  {{ setting.company }} {% endblock %}
+{%  block  keywords %}  {% endblock %}
+{%  block  descriptions %}   {% endblock %}
+{%  block  head %}
+    <link  rel="shortcut icon " type="image/x-icon" href="{{ setting.icon.url }}" />
 
+ {% endblock %}
 
 
 

@@ -6,6 +6,7 @@ from django.forms import ModelForm
 from django.urls import reverse
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.fields import RichTextUploadingField
+from django_fields import DefaultStaticImageField
 from mptt.fields import TreeForeignKey
 from mptt.models import MPTTModel
 
@@ -46,20 +47,23 @@ def __str__(self):
 
 
 class Product(models.Model):
+    STATUS = (
+        ('True', 'Evet'),
+        ('False', 'Hayır'),
+    )
+
     title = models.CharField(max_length=150)
     keyword = models.CharField(max_length=30)
     description = models.CharField(max_length=30)
-    price = models.CharField(max_length=15)
+    yazar = models.CharField(max_length=60, blank=True, null=True, )
+    yayinEvi = models.CharField(max_length=60, blank=True, null=True, )
+    price = models.IntegerField()
     image = models.ImageField(blank=True, null=True, upload_to='images/')
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
     slug = models.SlugField(null=True, unique=True)
     detail = RichTextUploadingField()
-    STATUS = (
-        ('True', 'Evet'),
-        ('False', 'Hayır'),
-    )
     status = models.CharField(max_length=30, choices=STATUS)
 
     def __str__(self):
@@ -97,7 +101,7 @@ class Comment(models.Model):
     subject = models.CharField(max_length=50, blank=True)
     comment = models.TextField(max_length=500, blank=True)
 
-    status = models.CharField(max_length=10, choices=STATUS, default='New')
+    status = models.CharField(max_length=10, choices=STATUS, default='True')
     ip = models.CharField(max_length=20, blank=True)
 
     create_at = models.DateTimeField(auto_now_add=True)

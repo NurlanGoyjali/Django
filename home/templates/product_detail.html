@@ -1,6 +1,11 @@
-{% load  static %}
-       {% include 'css_files.html' %}
-       {% include 'header.html' %}
+{% extends "homebase.html" %}
+
+{% block title %}   {{ product.title }} {% endblock %}
+
+
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+{%  block body %}
 	<section>
 		<div class="container">
 			<div class="row">
@@ -12,25 +17,35 @@
 								<img src="{{ product.image.url }}" alt="" style="height: 300px"/>
 								<h3>ZOOM</h3>
 							</div>
-							<div id="similar-product" class="carousel slide" data-ride="carousel">
-								
-								  <!-- Wrapper for slides -->
-								    <div class="carousel-inner">
 
+                            							<div id="similar-product" class="carousel slide" data-ride="carousel">
+								    <div id="similar-product" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                         {% for rs in images %}
+                                              {% if forloop.counter == 1 %}
+                                        <div class="item active">
+                                          <a href="{{rs.image.url}}"><img src="{{rs.image.url}}" style="height: 250px;width:450px;" alt=""></a>
+                                        </div>
+                                             {% else %}
+                                        <div class="item">
+                                          <a href="{{rs.image.url}}"><img src="{{rs.image.url}}" style="height: 250px; width:450px;"></a>
+                                        </div>
+                                            {% endif %}
+                                            {% endfor %}
 
-                                            {% for rs in images %}
-                                                <div class="image" >
-										  <a href="{{ rs.image.url }}"><img src="{{ rs.image.url }}" style="height: 100px; margin: 15px;"></a>
+                                    </div>
 
-                                                </div>
-                                    {% endfor %}
+                                  <!-- Controls -->
+                                  <a class="left item-control" href="#similar-product" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                  </a>
+                                  <a class="right item-control" href="#similar-product" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                  </a>
+                            </div>
 
-										
-									</div>
+                        </div>
 
-								  <!-- Controls -->
-
-							</div>
 
 						</div>
 						<div class="col-sm-7">
@@ -43,8 +58,8 @@
 									<span>{{product.price}} TL</span>
 									<label>Quantity:</label>
 									<input type="text" value="1" />
-									<button type="button" class="btn btn-fefault cart">
-										<i class="fa fa-shopping-cart"></i>
+									<button type="submit" class="btn btn-fefault cart">
+										<a href="/order/addtocart/{{ product.id }}" style="" /> <i class="fa fa-shopping-cart"></i>
 										Add to cart
 									</button>
 								</span>
@@ -58,11 +73,12 @@
                 <h1>Product Details</h1>
                     {{ product.detail | safe }}
 
+
 					<div class="category-tab shop-details-tab"><!--category-tab-->
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
 
-								<li class="active"><a href="#reviews" data-toggle="tab">Reviews</a></li>
+								<li class="active"><a href="#reviews" data-toggle="tab">Comments</a></li>
 							</ul>
 						</div>
 
@@ -77,8 +93,10 @@
 										<li><a href=""><i class="fa fa-user"></i>{{rs.subject}}</a></li>
 
 									</ul>
-									<p> {{ rs.comment }}</p>
+									<p> {{ rs.comment }} </p>
                                 {% endfor %}
+
+
 
 									<p><b>Write Your Review</b></p>
                                 {% if messages %}
@@ -93,7 +111,7 @@
 									<form action="/product/add/{{ product.id }}" method="POST">
                                         {% csrf_token %}
 										<span>
-											<input type="text" name="subject" id="id_subject"  placeholder="Your Name"/>
+
 										</span>
 										<textarea name="comment" id="id_comment" ></textarea>
 
@@ -117,4 +135,4 @@
 			</div>
 		</div>
 	</section>
-       {% include 'footer.html' %}
+       {% endblock %}

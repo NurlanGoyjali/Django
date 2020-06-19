@@ -1,7 +1,11 @@
 
 {% load static %}
 
+
+
 	<section id="slider"><!--slider-->
+    {% if permision == 1  %}
+
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -21,17 +25,17 @@
 							<div class="item {% if forloop.counter == 1 %} active{% endif %}">
 
 
-
 								<div class="col-sm-6">
-									<h1><span>{{ rs.title }}</span></h1>
-									<h2>{{ rs.description }}</h2>
-									<p style="color:darkred; "><span><strong> {{ rs.category}} </strong> </span></p>
+									<h1><span>{{ rs.description }}</span></h1>
+									<h2>{{ rs.yazar }}</h2>
+									<p style="color:darkred; "><span><strong> {{ rs.yayinEvi}} </strong> </span></p>
 									<a href="/product/{{ rs.id }}"> <button type="button" class="btn btn-default get">GİT</button> </a>
 								</div>
 								<div class="col-sm-6">
 									<img src="{{ rs.image.url }}" class="girl img-responsive" alt="" style="height: 350px " />
 
 								</div>
+
 
 
 							</div>
@@ -41,6 +45,7 @@
 
 						</div>
 
+
                  <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next" >
 							<i class="fa fa-angle-right" style="margin-left: 110%;"></i>
 						</a>
@@ -48,9 +53,13 @@
 							<i class="fa fa-angle-left"></i>
 						</a>
 
+
 					</div>
 
 				</div>
 			</div>
 		</div>
+
+{% endif %}
 	</section><!--/slider-->
+

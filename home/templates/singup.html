@@ -1,8 +1,11 @@
+{% extends "homebase.html" %}
 
-{% load static %}
+{% block title %}   {{ "Kayit Sayfası" }} {% endblock %}
 
-{% include 'css_files.html' %}
-{% include 'header.html' %}
+
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+{%  block body %}
 
 <body>
 
@@ -48,4 +51,4 @@
 	</section><!--/form-->
 
 
-    {% include 'footer.html'    %}
+    {% endblock %}

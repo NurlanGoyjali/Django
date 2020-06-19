@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="" />
+    <list default="true" id="0e5b2bc0-9a0b-412c-90b4-15e003f2cf9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deneme3/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/content_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/content_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/templates/orderproduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0002_auto_20200605_1712.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b_9786054205622.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/java-8-se.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/users/Ekran_Görüntüsü_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/change_pass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/orderdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deneme3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deneme3/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deneme3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deneme3/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/Forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/Forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/css_files.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/css_files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/product_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/show_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/show_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/singup.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/singup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1_BULsiQI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1_ObRxb0P.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181010_160215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181013_230424.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181019_171731.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181118_092413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181118_143311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20190403_151757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Ekran_Görüntüsü_36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/analiz.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/analiz_aFxUHUn.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir_9HTyq5G.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir_LlLRBpw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir_m361V3g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/java1_OSbyxrQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/java2_vN3fy6O.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/kargo_gondermeü.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/mavid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/mavid_BePrUjp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/mavid_NeT88VW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,20 +108,6 @@
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="auth_user: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="home_userprofile: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -102,18 +163,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/static/images" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Django\deneme3\user" />
-      <recent name="C:\Django\deneme3\home" />
-      <recent name="C:\Django\deneme3\home\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Django\deneme3\home\templates" />
+      <recent name="C:\Django\deneme3\user\templates" />
+      <recent name="C:\Django\deneme3\uploads\images" />
+      <recent name="C:\Django\deneme3\uploads" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Django\deneme3\home\static\images" />
+      <recent name="C:\Django\deneme3\order\templates" />
+      <recent name="C:\Django\deneme3\order" />
+      <recent name="C:\Django\deneme3\user" />
+      <recent name="C:\Django\deneme3\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,7 +241,16 @@
       <workItem from="1590335731608" duration="6845000" />
       <workItem from="1590416358305" duration="16251000" />
       <workItem from="1591132501641" duration="2001000" />
-      <workItem from="1591134767223" duration="483000" />
+      <workItem from="1591134767223" duration="1454000" />
+      <workItem from="1591315030555" duration="27205000" />
+      <workItem from="1591439767375" duration="55191000" />
+      <workItem from="1591695831861" duration="11125000" />
+      <workItem from="1591731691670" duration="6177000" />
+      <workItem from="1591892077550" duration="633000" />
+      <workItem from="1591961976193" duration="23315000" />
+      <workItem from="1592048182460" duration="2348000" />
+      <workItem from="1592460186114" duration="25593000" />
+      <workItem from="1592554473167" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <created>1591132824767</created>
@@ -237,11 +312,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -261,10 +331,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1586130283723" />
-    <state x="441" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590420885122">
+    <state x="441" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591616457395">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="441" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1590420885122" />
+    <state x="441" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1591616457395" />
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590420942643">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -281,38 +351,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586142485012" />
-    <state width="661" height="213" key="GridCell.Tab.0.bottom" timestamp="1591134521984">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1592561325903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="213" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
-    <state width="661" height="213" key="GridCell.Tab.0.center" timestamp="1591134521984">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592561325903" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1592561325903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="213" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
-    <state width="661" height="213" key="GridCell.Tab.0.left" timestamp="1591134521984">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592561325903" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1592561325903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="213" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
-    <state width="661" height="213" key="GridCell.Tab.0.right" timestamp="1591134521984">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592561325903" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1592561325903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="213" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591134521984" />
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1590454795553">
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592561325903" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1592561295928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590454795553" />
-    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1590454795553">
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592561295928" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1592561295928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590454795553" />
-    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1590454795552">
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1592561295928" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1592561295928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590454795552" />
-    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1590454795553">
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1592561295928" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1592561295928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590454795553" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1592561295928" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590180597614">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -325,25 +395,39 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586135163417" />
-    <state x="558" y="274" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590183401023">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591709233226">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="558" y="274" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.768@0.0.1366.768" timestamp="1590183401023" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1591709233226" />
+    <state x="558" y="274" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1592465650909">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="558" y="274" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.768@0.0.1366.768" timestamp="1592465650909" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1590183245019">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1590183245019" />
-    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1591134777419">
+    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1592554470902">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591134777419" />
+    <state x="378" y="208" width="594" height="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592554470902" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591134406788">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1591134406788" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591134979227">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1592483407926">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591134979227" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1592483407926" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
